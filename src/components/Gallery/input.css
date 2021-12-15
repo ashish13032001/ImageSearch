@@ -1,0 +1,63 @@
+
+
+.input{
+    background: url("../images/pencil-57e4dd4548_1280.jpg") center;
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.input h1{
+    color: #ebe8e8;
+    font-size: 30px;
+}
+
+.input div input{
+    width: 500px;
+    height: 30px;
+    border: 0;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgba(157,157,157, 0.8);
+    color: white;
+    caret-color: white;
+}
+
+.input div button{
+    height: 32px;
+    position: relative;
+    top: -2px;
+}
+
+@media only screen and (max-width: 700px) {
+    .input {
+        background: url("../images/mobile1.jpg") center no-repeat;
+        width: 100%;
+        height: 200px;
+        color: black;
+    }
+
+    .input h1{
+        color: #fff;
+        font-size: 18px;
+        display: none;
+    }
+    
+    .input div input{
+        width: 250px;
+        height: 20px;
+        border: 0;
+        margin: 5px;
+        font-size: 15px;
+        background-color: rgba(157,157,157, 0.8);
+    }
+    
+    .input div button{
+        height: 20px;
+    }
+}
