@@ -14,15 +14,15 @@ const Footer = () => {
                 <div className="container">
                     <ul className="list-unstyled list-inline text-center">
                         
-                            <a className="btn-floating btn-fb mx-1" href="#">
+                            <a className="btn-floating btn-fb mx-1" href="www.google.com">
                                 <FacebookIcon />
                             </a>
                             {`  `}  
-                            <a className="btn-floating btn-tw mx-1" href="#">
+                            <a className="btn-floating btn-tw mx-1" href="www.google.com">
                                 <InstagramIcon />
                             </a>
                             {`  `}
-                            <a className="btn-floating btn-gplus mx-1" href="#">
+                            <a className="btn-floating btn-gplus mx-1" href="www.google.com">
                                 <TwitterIcon />
                             </a>
                             {`  `}
